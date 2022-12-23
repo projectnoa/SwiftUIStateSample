@@ -10,6 +10,8 @@ import SwiftUI
 
 @main
 struct SwiftUIStateSampleApp: App {
+    @State var isOn: Bool = false
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
